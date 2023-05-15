@@ -1,6 +1,6 @@
 # Backend Challenge
 
-##To create the postgres database, write the following commands in psql in order:
+## To create the postgres database, write the following commands in psql in order:
 
 1. psql -U postgres
    Enter your password for the postgres user
@@ -16,7 +16,7 @@
 10. \c issues_test
 11. GRANT ALL ON SCHEMA public TO full_stack_user;
 
-##To run the project from the Docker image, write the following commands in your terminal
+## To run the project from the Docker image, write the following commands in your terminal
 
 1. docker pull manarmansour/issue_api:latest
 2. docker run -it manarmansour/issue_api:latest
